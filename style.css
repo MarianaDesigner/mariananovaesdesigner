@@ -1,0 +1,125 @@
+body {
+    background-color: #000;
+    font-family: "Poppins";
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: end;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #00a8bf;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#inicio {
+
+    background-color: #000000;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about-me {
+    background-color: #000000;
+    color: white;
+}
+
+#services {
+    background-color: #000000;
+    color: white;
+}
+
+#contact {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.contact-navbar {
+    border-radius: 100px;
+    padding: 0.5% 1%;
+    background-color: white;
+    color: black;
+}
+
+.contact-navbar:hover {
+    border: 2px solid #00a8bf; 
+    background-color: black; 
+    color: #00a8bf; 
+    cursor: pointer; 
+}
+
+.frase-inicio {
+    font-family: "Alice";
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+.foto-inicio{
+    width: 30%;
+}
+
+.main-div{
+    font-size: 2em;
+}
+
+.btn-behance {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #00a8bf;
+    background-color: #000000;
+    border-color: #00a8bf;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-behance:hover {
+    background-color: #007a90;
+    transform: scale(1.05);
+}
+
+.btn-behance a {
+    text-decoration: none;
+    color: #00a8bf;
+}
+
+#mundo{
+    color: white;
+}
